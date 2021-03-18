@@ -1,0 +1,145 @@
+/***** BASE STYLES *****/
+body {
+      color: black;
+      font-family: 'Galada', cursive;
+      font-family: 'Montserrat', sans-serif;
+}
+
+
+p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+
+}
+
+/***** GRID *****/
+.full-width {
+      margin:20px 20px 0px 20px;
+      overflow: auto;
+      width: 1200px;
+}
+
+.half-width {
+      float: left;
+      width: 600px;
+
+}
+
+
+.third-width {
+      border-top: 1px solid #dedbdc;
+      float: left;
+      width: 400px;
+}
+
+/***** Header *****/
+
+header h1 {
+      color: black;
+      font-family: 'Monserrat', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+
+header h1 span {
+      color: #77a466;
+}
+
+
+nav {
+      float: right;
+      word-spacing: 5px;
+}
+
+
+nav ul li{
+      display: inline-block;
+}
+
+
+nav ul li a {
+      color: #83ab74;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+
+
+/***** Gallery *****/
+
+main img {
+      border-bottom: 3px solid #77a466;
+      border-top: 3px solid #77a466;
+}
+
+/********** Main Section **********/
+
+main {
+      border-bottom: 1px solid #dedbdc;
+}
+
+.main-heading {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+
+
+/***** About Section *****/
+
+#about h3 {
+      color: #77a466;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+
+#about p {
+      padding-bottom: 10px;
+}
+
+/***** Menu Section *****/
+
+#menu p {
+      color: #83ab74;
+}
+
+
+#menu {
+      padding-top: 20px;
+}
+
+/***** Reviews Section *****/
+
+#reviews {
+      border-left: 1px solid #dedbdc;
+      border-right: 1px solid #dedbdc;
+      padding: 20px
+}
+
+#locations {
+      padding: 20px;
+}
+
+
+/***** Footer *****/
+
+
+
+#content {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+#content span {
+      color: #77a466;
+      font-family: 'Galada', cursive;
+      font-size: 16px;
+      font-weight: lighter;
+      text-transform: lowercase;
+}
